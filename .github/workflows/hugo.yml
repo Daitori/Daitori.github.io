@@ -49,17 +49,28 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: |
+          if [[ -f package.json ]]; then
+            npm install  # Install all npm dependencies, including postcss
+          fi
+      - name: Install PostCSS
+        run: |
+          npm install postcss postcss-cli  # Install postcss and postcss-cli if not included in package.json
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
+          TZ: Europe/Paris
         run: |
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Run PostCSS
+        run: |
+          if [[ -d ./public/css ]]; then
+            npx postcss ./public/css/*.css --dir ./public/css  # Adjust this path to your CSS files
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -76,4 +87,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
