@@ -53,17 +53,6 @@ jobs:
           if [[ -f package.json ]]; then
             npm install  # Install all npm dependencies, including postcss
           fi
-      - name: List Hugo output files
-        run: |
-           ls -R ./public
-      - name: Adjust permissions for CSS files
-        run: |
-          chmod -R 755 ./public/css
-      - name: Run PostCSS
-        run: |
-          if [[ -d ./public/css ]]; then
-            npx postcss ./public/css/*.css --dir ./public/css  # Adjust this path to your CSS files
-          fi
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
