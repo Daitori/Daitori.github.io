@@ -53,6 +53,9 @@ jobs:
           if [[ -f package.json ]]; then
             npm install  # Install all npm dependencies, including postcss
           fi
+      - name: List Hugo output files
+        run: |
+           ls -R ./public
       - name: Adjust permissions for CSS files
         run: |
           chmod -R 755 ./public/css
