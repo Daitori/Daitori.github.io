@@ -63,11 +63,6 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Run PostCSS
-        run: |
-          if [[ -d ./public/css ]]; then
-            npx postcss ./public/css/*.css --dir ./public/css  # Adjust this path to your CSS files
-          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
