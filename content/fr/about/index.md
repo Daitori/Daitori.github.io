@@ -1,6 +1,6 @@
 ---
 title: About Goldydocs
-linkTitle: About
+linkTitle: A propos de moi
 menu: {main: {weight: 10}}
 ---
 
