@@ -1,15 +1,10 @@
 ---
-title: Goldydocs
+title: Bienvenue
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
-</a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+{{< blocks/cover title="Bienvenue sur ma page de présentation " image_anchor="top" height="full" >}}
+
+<p class="lead mt-5">Sur cette page, on va voir </p>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
@@ -25,10 +20,13 @@ to create your own real websites with [Docsy](https://docsy.dev))
 
 
 {{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
+{{% blocks/feature title="New chair metrics!" %}}
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+</a>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
+  Download <i class="fab fa-github ms-2 "></i>
+</a> 
 {{% /blocks/feature %}}
 
 
@@ -39,6 +37,7 @@ We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributi
 
 {{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
 For announcement of latest features etc.
+
 {{% /blocks/feature %}}
 
 

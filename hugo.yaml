@@ -1,4 +1,4 @@
-baseURL: https://example.docsy.dev
+baseURL: http://localhost:1313/
 title: Goldydocs
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -31,10 +31,6 @@ pygmentsUseClassic: false
 # pygmentsOptions: "linenos=table"
 # See https://help.farbox.com/pygments.html
 pygmentsStyle: tango
-
-# Configure how URLs look like per section.
-permalinks:
-  blog: /:section/:year/:month/:day/:slug/
 
 # Image processing configuration.
 imaging:
@@ -79,7 +75,7 @@ markup:
 
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
-  section: [HTML, print, RSS]
+  section: [HTML, print]
 
 params:
 
@@ -127,7 +123,7 @@ params:
 
 
   #links:
-    # End user relevant links. These will show up on left side of footer and in the community page if you have one.
+  # End user relevant links. These will show up on left side of footer and in the community page if you have one.
   #  user:
   #    - name: User mailing list
   #      url: https://example.org/mail
@@ -141,7 +137,7 @@ params:
   #      url: https://example.org/stack
   #      icon: fab fa-stack-overflow
   #      desc: Practical questions and curated answers
-    # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+  # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
   #  developer:
   #    - name: GitHub
   #      url: https://github.com/google/docsy
