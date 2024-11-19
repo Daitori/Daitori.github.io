@@ -1,7 +1,7 @@
 ---
 title: Documentation
 linkTitle: Projet
-menu: {main: {weight: 30}}
+menu: {main: {weight: 20}}
 ---
 
 {{% pageinfo %}}

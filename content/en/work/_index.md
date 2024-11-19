@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Work
 menu: {main: {weight: 30}}
 ---
 
