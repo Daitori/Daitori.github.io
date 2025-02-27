@@ -1,27 +1,33 @@
 ---
 title: Bienvenue
 ---
-{{% blocks/cover title="Bienvenue sur ma page de présentation" image_anchor="bottom" height="auto" %}}
-
-Sur cette page, on va voir.
-{.mt-5}
-
+{{% blocks/cover title="Bienvenue sur ma page de présentation" image_anchor="bottom" height="full" %}}
+Sur ce site, je vous présente les compétences que j'ai acquises à travers mes projets et expériences professionnelles.{{< blocks/link-down color="info">}}
 {{% /blocks/cover %}}
 
-{{% blocks/section type="row" %}}
+{{% blocks/lead color="primary" %}}
+Vous découvrirez ici les projets que j'ai réalisés durant mon temps libre et mon parcours scolaire. De plus, j'expliquerai plus en détail mes contributions lors de mes expériences professionnelles.  
+Pour une présentation plus concise, je vous invite à consulter mon [LinkedIn](https://www.linkedin.com/in/david-chen-esiea/) ainsi que mon [CV](1738799056911.pdf).
+{{% /blocks/lead %}}
+
+{{% blocks/section color="dark" type="row" %}}
 
 {{% blocks/feature title="Mes différents projets" %}}
+Ces projets visent à renforcer les compétences acquises durant mon parcours <br />
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/project/">
   Voir mes projets <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fa-thin fa-briefcase" title="Mes expériences" %}}
+Les différentes expériences m'ont permis de développer mes compétences en entreprise et de travailler sur des projets concrets. <br />
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/work/">
+  Voir mes contributions <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+</a>
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fa-solid fa-circle-user" title="A propos de moi"%}}
+Je suis diplômé de l'ESIEA (École Supérieure d'Informatique, Électronique, Automatique), spécialisation en Intelligence Artificielle et Data, promotion 2024. [Pour voir davantage](about)  <br />
 
 {{% /blocks/feature %}}
 

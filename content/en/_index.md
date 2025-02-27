@@ -1,77 +1,33 @@
 ---
-title: Goldydocs
+title: Welcome
 ---
-
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
-</a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
-{{< blocks/link-down color="info" >}}
-{{< /blocks/cover >}}
-
+{{% blocks/cover title="Welcome to my presentation page" image_anchor="bottom" height="full" %}}
+On this website, I showcase the skills I have acquired through different projects and professional experiences.{{< blocks/link-down color="info">}}
+{{% /blocks/cover %}}
 
 {{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+Here, you will discover the projects I have worked on during my free time and academic journey. Additionally, I will provide more details about my contributions during my professional experiences.  
+For a more concise overview, feel free to check out my [LinkedIn](https://www.linkedin.com/in/david-chen-esiea/) and my [CV](1738799056911.pdf).
 {{% /blocks/lead %}}
 
-
 {{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
 
-Please follow this space for updates!
+{{% blocks/feature title="My Projects" %}}
+These projects aim to strengthen the skills I have acquired throughout my journey. <br />
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/project/">
+  View my projects <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+</a>
 {{% /blocks/feature %}}
 
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fa-thin fa-briefcase" title="My Experiences" %}}
+My various professional experiences have allowed me to develop my skills in a corporate environment and work on real-world projects. <br />
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="/work/">
+  View my contributions <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+</a>
 {{% /blocks/feature %}}
 
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fa-solid fa-circle-user" title="About Me"%}}
+I am a graduate of ESIEA (École Supérieure d'Informatique, Électronique, Automatique), specializing in Artificial Intelligence and Data, Class of 2024. [Learn more](about) <br />
 {{% /blocks/feature %}}
 
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the second section
-{.h1 .text-center}
-{{% /blocks/section %}}
-
-
-{{% blocks/section type="row" %}}
-
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
 {{% /blocks/section %}}

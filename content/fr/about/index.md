@@ -1,5 +1,5 @@
 ---
-title: About Goldydocs
+title: About me
 linkTitle: A propos de moi
 menu: {main: {weight: 10}}
 ---
