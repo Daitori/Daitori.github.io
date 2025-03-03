@@ -1,6 +1,6 @@
 ---
 title: Documentation
-linkTitle: Expérience
+linkTitle: Expériences
 menu: {main: {weight: 30}}
 ---
 
