@@ -1,15 +1,15 @@
 ---
-title: Getting Started
-description: What does your user need to know to try your project?
-categories: [Examples, Placeholders]
-tags: [test, docs]
+title: Stage technique chez MBDA, Le Plessis-Robinson
+description: Stage effectués chez MBDA ()
+categories: [Stage]
+tags: [2023,Python,Java]
 weight: 2
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+Les informations en lien avec ce stage sont soumis sous une politique de confidentialité, toutes les informations ne sont pas présentes
 {{% /pageinfo %}}
-
+  
 Information in this section helps your user try your project themselves.
 
 * What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
